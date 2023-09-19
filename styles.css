@@ -20,6 +20,7 @@ header {
 /* Styles pour la navigation */
 nav ul {
     list-style: none;
+    padding: 0; /* Ajouté pour plus d'espace entre les éléments */
 }
 
 nav ul li {
@@ -31,6 +32,11 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #44CFC3;
 }
 
 /* Styles pour les sections principales */
@@ -59,17 +65,6 @@ h1, h2, h3 {
     background-color: #FFD166;
 }
 
-/* Styles pour les liens */
-a {
-    color: #007ACC;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #44CFC3;
-}
-
 /* Styles pour le pied de page (footer) */
 footer {
     background-color: #333333;
@@ -89,6 +84,6 @@ footer {
     nav ul li {
         display: block;
         margin-bottom: 10px;
+        margin-right: 0; /* Changé pour éviter une marge excessive */
     }
 }
-
