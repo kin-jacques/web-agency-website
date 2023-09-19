@@ -1,0 +1,94 @@
+/* Réinitialisation des styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilisation de la police de caractères sans-serif par défaut */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles pour l'en-tête (header) */
+header {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles pour les sections principales */
+section {
+    padding: 40px;
+}
+
+/* Styles pour la couleur principale de texte */
+h1, h2, h3 {
+    color: #333333;
+}
+
+/* Styles pour les boutons d'appel à l'action */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6B6B;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #FFD166;
+}
+
+/* Styles pour les liens */
+a {
+    color: #007ACC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #44CFC3;
+}
+
+/* Styles pour le pied de page (footer) */
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media query pour la mise en page mobile */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    section {
+        padding: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
